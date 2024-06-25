@@ -6,12 +6,13 @@ from bot.rsi_calculator import RSICalculator
 
 if __name__ == "__main__":
     print("STARTING BOT...")
+    alert_70 = False
+    alert_30 = False
+
     while True:
         # Collect data with kline_fetcher
         fetcher = KlineFetcher()
         rsi_calculator = RSICalculator()
-        alert_70 = False
-        alert_30 = False
 
         # Collect data with kline_fetcher
         data = fetcher.fetch_kline_data()
