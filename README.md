@@ -16,8 +16,8 @@ You can either create your own server and change webhook address in .env or just
 1. **Clone the repository**
 
    ```sh
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
+   git clone https://github.com/yourusername/your-repo.git](https://github.com/Tpawlak00/Xtraders-BOT.git
+   cd Xtraders-BOT
 
 2. **Create a .env file or use one that is already created**
 
