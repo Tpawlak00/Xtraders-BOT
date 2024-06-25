@@ -17,6 +17,7 @@ class KlineFetcher:
                     interval=interval,
                     start=datetime.timestamp(now - timedelta(hours=14)),
                     end=datetime.timestamp(now),
+                    limit=14
                 )
         close_prices = []
         for row in data['result']['list']:
