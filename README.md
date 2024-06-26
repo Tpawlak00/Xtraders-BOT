@@ -28,20 +28,11 @@ Create a .env file in the root directory of the project and add your Discord web
 - SYMBOL = SOLUSDT
 - INTERVAL = 60
 
-3. **Configuring dockerfile or use the one that is already created**
-
-To properly create docker container change the following enviroment variables and add your Discord webhook:
-
-- ENV DISCORD_WEBHOOK = https://discord.com/api/webhooks/1254832911526527078/cx0MyyULVw6Le4XHEK0a8ewCIcoCacVExg71gZ57DRAPft7b-mmDOkOYvxo-U1-Nac0J
-- ENV KLINE_ENDPOINT = "https://api.bybit.com/v2/public/kline/list"
-- ENV SYMBOL = SOLUSDT
-- ENV INTERVAL = 60
-
-4. **Creating docker container**
+3. **Creating docker container**
 To create docker container, run this command
 
    docker build -t discord-rsi-bot .
-5. **Running BOT with docker**
+4. **Running BOT with docker**
 
 After properly creating container, run command:
 
